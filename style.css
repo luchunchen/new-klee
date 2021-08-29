@@ -1,0 +1,179 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+.app {
+  width: 50vw;
+  margin: auto;
+  
+}
+
+
+
+@media screen and (max-width: 770px) {
+  .app {
+    width: 90%;
+  }
+
+  .item-input-wrap {
+    width: 100vw;
+    
+  }
+
+  .item-input-center img {
+    width: 90%;
+  }
+
+  .item-input-center div {
+    text-align: center;
+  }
+  
+  .item-input-center p {
+    padding-top: 1rem;
+  }
+  
+
+  
+}
+
+/* 暫時 */
+
+/* 暫時 */
+
+.item-input-wrap {
+  width: 100vw;
+  height: 100vh;
+  
+  background: coral;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999; 
+}
+
+.item-input-wrap h3 {
+  color: #fff;
+  background: rgb(111, 19, 19);
+}
+
+.item-input-center {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+
+}
+
+
+
+.item-input-center div:nth-child(1) {
+  padding-top: 50px;
+} 
+
+.add-item ul li:nth-child(4){
+  text-align: center;
+  margin-top: 50px;
+ 
+}
+
+.add-item ul li{
+  
+  padding: 10px;
+ 
+}
+
+.add-item ul li:nth-child(4) input {
+  width: 160px;
+  height: 100px;
+  font-size: 24px;
+}
+
+
+
+.flower {
+  cursor: pointer;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+.item {
+  width: 30%;
+}
+
+.item img {
+  width: 100%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* ----------------------------------------------- */
+
+header {
+  margin-bottom: 1rem;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+}
+
+header ul li {
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+.active {
+  background: aquamarine;
+}
+
+
+/* 總結算 */
+
+.total {
+  width: 100%;
+}
+
+.total ul li {
+  padding: 1rem 0px;
+}
+
+.save {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.save span {
+ padding: 20px 60px;
+ cursor: pointer;
+ text-align: center;
+ background: coral;
+ border-radius: 50px;
+}
+
+.close {
+  position: absolute;
+  right: 3em;
+  bottom: 6em;
+  padding: 30px 30px;
+  z-index: 1;
+  text-align: center;
+  background: cornflowerblue;
+  border-radius: 10px;
+}
